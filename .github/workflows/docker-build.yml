@@ -48,5 +48,5 @@ jobs:
 
     - name: Push to Docker Hub
       run: |
-        docker tag todo-backend-image:latest dgelom/todo-backend-image:latest
-        docker push dgelom/todo-backend-image:latest
+        docker tag todo-frontend-image:latest dgelom/todo-frontend-image:latest
+        docker push dgelom/todo-frontend-image:latest
