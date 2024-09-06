@@ -1,13 +1,13 @@
 services:
   backend:
     build: ./backend 
-    image: tofo-backend-image:latest 
+    image: todo-backend-image:latest 
     ports:
       - 3000:3000 
 
   frontend:
     build: ./frontend 
-    image: frontend-image:latest
+    image: todo-frontend-image:latest
     ports:
       - 3001:3000 
     depends_on: 
